@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa...</title>
+    <style>
+        body {
+            background-color: #b7ffe7;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            height: 100vh;
+        }
+        div#container {
+            display: flex;
+            justify-content: center;
+            
+        }
+        div#centralizada {
+            display: flex;
+            flex-flow: column nowrap;
+            text-align: center;
+            background-color: white;
+            width: 70vw;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container"> 
+        <div id="centralizada">
+            <h1>Olá, Mundo!</h1>
+            <p>Já me livrei da maldição</p>
+        </div>
+    </div>
+    <script>
+        window.alert('Minha primeira mensagem')
+        window.confirm('Está gostando de JavaScript?')
+        window.prompt('Qual é o seu nome?')
+    </script>
+</body>
+</html>
